@@ -1,0 +1,102 @@
+@import 'pages.css';
+
+.contact-content { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 60px 2rem; 
+}
+
+.contact-form { 
+    background: var(--cream); 
+    padding: 2rem; 
+    border-radius: 10px; 
+    border-top: 4px solid var(--saffron); 
+}
+
+.contact-form h2 { 
+    text-align: center; 
+    color: var(--maroon); 
+    margin-bottom: 2rem; 
+}
+
+.form-group { 
+    margin-bottom: 1.5rem; 
+}
+
+.form-group label { 
+    display: block; 
+    margin-bottom: 0.5rem; 
+    color: var(--maroon); 
+    font-weight: 600; 
+}
+
+.form-group input, 
+.form-group textarea { 
+    width: 100%; 
+    padding: 10px; 
+    border: 2px solid var(--saffron); 
+    border-radius: 5px; 
+    font-size: 1rem; 
+    font-family: 'Baloo 2', sans-serif; 
+    transition: all 0.3s; 
+}
+
+.form-group input:focus, 
+.form-group textarea:focus { 
+    outline: none; 
+    border-color: var(--maroon); 
+    box-shadow: 0 0 8px rgba(139,0,0,0.2); 
+}
+
+.form-group textarea { 
+    resize: vertical; 
+    min-height: 150px; 
+}
+
+.submit-btn { 
+    width: 100%; 
+    padding: 12px; 
+    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%); 
+    color: var(--maroon); 
+    border: none; 
+    border-radius: 5px; 
+    font-weight: 700; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: all 0.3s; 
+}
+
+.submit-btn:hover { 
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 10px rgba(139,0,0,0.3); 
+}
+
+.contact-info { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem; 
+    margin-top: 3rem; 
+}
+
+.info-card { 
+    background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%); 
+    padding: 2rem; 
+    border-radius: 10px; 
+    border-left: 4px solid var(--saffron); 
+    text-align: center; 
+}
+
+.info-card i { 
+    font-size: 2rem; 
+    color: var(--saffron); 
+    margin-bottom: 1rem; 
+}
+
+.info-card h3 { 
+    color: var(--maroon); 
+    margin-bottom: 0.5rem; 
+}
+
+.info-card p { 
+    color: #666; 
+}

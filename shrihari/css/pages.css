@@ -1,0 +1,156 @@
+:root { 
+    --saffron: #FF9933; 
+    --maroon: #8B0000; 
+    --gold: #FFD700; 
+    --cream: #FFF8E1; 
+    --dark: #333; 
+    --white: #ffffff; 
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: 'Baloo 2', sans-serif; 
+    background: var(--white); 
+    color: var(--dark); 
+    line-height: 1.6; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Rozha One', serif; 
+    color: var(--maroon); 
+    font-weight: 700; 
+}
+
+header { 
+    background: linear-gradient(to right, var(--saffron), var(--gold), var(--saffron)); 
+    padding: 1rem 2rem; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    border-bottom: 4px solid var(--maroon); 
+}
+
+.header-container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo { 
+    display: flex; 
+    align-items: center; 
+    gap: 0.8rem; 
+}
+
+.logo i { 
+    font-size: 2.2rem; 
+    color: var(--maroon); 
+}
+
+.logo h1 { 
+    font-size: 2rem; 
+    color: var(--maroon); 
+    margin: 0; 
+}
+
+nav { 
+    display: flex; 
+    gap: 2rem; 
+    align-items: center; 
+}
+
+nav a { 
+    color: var(--maroon); 
+    text-decoration: none; 
+    font-weight: 700; 
+    transition: all 0.3s; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; 
+}
+
+nav a:hover { 
+    background: rgba(139,0,0,0.2); 
+}
+
+.page-hero { 
+    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 50%, var(--saffron) 100%); 
+    color: var(--white); 
+    padding: 80px 2rem; 
+    text-align: center; 
+}
+
+.page-hero h1 { 
+    color: var(--white); 
+    font-size: 2.5rem; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
+}
+
+.page-hero p { 
+    color: var(--white); 
+    font-size: 1.2rem; 
+}
+
+footer { 
+    background: linear-gradient(135deg, var(--maroon) 0%, #5C0000 100%); 
+    color: var(--white); 
+    padding: 3rem 2rem 1rem; 
+}
+
+.footer-content { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem; 
+    max-width: 1200px; 
+    margin: 0 auto 2rem; 
+}
+
+.footer-section h3 { 
+    color: var(--gold); 
+    margin-bottom: 1rem; 
+}
+
+.footer-section ul { 
+    list-style: none; 
+}
+
+.footer-section a { 
+    color: var(--white); 
+    text-decoration: none; 
+    display: block; 
+    padding: 0.5rem 0; 
+}
+
+.footer-section a:hover { 
+    color: var(--gold); 
+}
+
+.social-icons { 
+    display: flex; 
+    gap: 1rem; 
+}
+
+.social-icons a { 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 40px; 
+    height: 40px; 
+    background: var(--saffron); 
+    color: var(--white); 
+    border-radius: 50%; 
+}
+
+.footer-bottom { 
+    border-top: 2px solid var(--saffron); 
+    padding-top: 2rem; 
+    text-align: center; 
+    color: var(--cream); 
+}
