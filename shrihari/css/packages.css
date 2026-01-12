@@ -75,7 +75,7 @@
 }
 
 .package-highlights li:before { 
-    content: 'âœ“ '; 
+    
     color: #FF9933; 
     font-weight: 700; 
     margin-right: 8px; 
