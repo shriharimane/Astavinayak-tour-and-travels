@@ -1,32 +1,32 @@
-@import 'pages.css';
+﻿@import 'pages.css';
 
 .contact-content { 
     max-width: 800px; 
     margin: 0 auto; 
-    padding: 60px 2rem; 
+    padding: 60px 32px; 
 }
 
-.contact-form { 
-    background: var(--cream); 
-    padding: 2rem; 
+.contact-form {
+    background: #FFF8E1;
+    padding: 32px; 
     border-radius: 10px; 
-    border-top: 4px solid var(--saffron); 
+    border-top: 4px solid #FF9933; 
 }
 
 .contact-form h2 { 
     text-align: center; 
-    color: var(--maroon); 
-    margin-bottom: 2rem; 
+    color: #8B0000; 
+    margin-bottom: 32px; 
 }
 
 .form-group { 
-    margin-bottom: 1.5rem; 
+    margin-bottom: 24px; 
 }
 
 .form-group label { 
     display: block; 
-    margin-bottom: 0.5rem; 
-    color: var(--maroon); 
+    margin-bottom: 8px; 
+    color: #8B0000; 
     font-weight: 600; 
 }
 
@@ -34,9 +34,9 @@
 .form-group textarea { 
     width: 100%; 
     padding: 10px; 
-    border: 2px solid var(--saffron); 
+    border: 2px solid #FF9933; 
     border-radius: 5px; 
-    font-size: 1rem; 
+    font-size: 16px; 
     font-family: 'Baloo 2', sans-serif; 
     transition: all 0.3s; 
 }
@@ -44,7 +44,7 @@
 .form-group input:focus, 
 .form-group textarea:focus { 
     outline: none; 
-    border-color: var(--maroon); 
+    border-color: #8B0000; 
     box-shadow: 0 0 8px rgba(139,0,0,0.2); 
 }
 
@@ -56,12 +56,12 @@
 .submit-btn { 
     width: 100%; 
     padding: 12px; 
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%); 
-    color: var(--maroon); 
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 100%); 
+    color: #8B0000; 
     border: none; 
     border-radius: 5px; 
     font-weight: 700; 
-    font-size: 1rem; 
+    font-size: 16px; 
     cursor: pointer; 
     transition: all 0.3s; 
 }
@@ -74,29 +74,30 @@
 .contact-info { 
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 2rem; 
-    margin-top: 3rem; 
+    gap: 32px; 
+    margin-top: 48px; 
 }
 
 .info-card { 
-    background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%); 
-    padding: 2rem; 
+    background: linear-gradient(135deg, #FFF8E1 0%, #ffffff 100%); 
+    padding: 32px; 
     border-radius: 10px; 
-    border-left: 4px solid var(--saffron); 
+    border-left: 4px solid #FF9933; 
     text-align: center; 
 }
 
 .info-card i { 
-    font-size: 2rem; 
-    color: var(--saffron); 
-    margin-bottom: 1rem; 
+    font-size: 32px; 
+    color: #FF9933; 
+    margin-bottom: 16px; 
 }
 
 .info-card h3 { 
-    color: var(--maroon); 
-    margin-bottom: 0.5rem; 
+    color: #8B0000; 
+    margin-bottom: 8px; 
 }
 
 .info-card p { 
     color: #666; 
 }
+

@@ -1,4 +1,4 @@
-:root { 
+﻿:root { 
     --saffron: #FF9933; 
     --maroon: #8B0000; 
     --gold: #FFD700; 
@@ -15,25 +15,25 @@
 
 body { 
     font-family: 'Baloo 2', sans-serif; 
-    background: var(--white); 
-    color: var(--dark); 
+    background: #ffffff; 
+    color: #333; 
     line-height: 1.6; 
 }
 
 h1, h2, h3, h4, h5, h6 { 
     font-family: 'Rozha One', serif; 
-    color: var(--maroon); 
+    color: #8B0000; 
     font-weight: 700; 
 }
 
 header { 
-    background: linear-gradient(to right, var(--saffron), var(--gold), var(--saffron)); 
-    padding: 1rem 2rem; 
+    background: linear-gradient(to right, #FF9933, #FFD700, #FF9933); 
+    padding: 16px 32px; 
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
     position: sticky; 
     top: 0; 
     z-index: 1000; 
-    border-bottom: 4px solid var(--maroon); 
+    border-bottom: 4px solid #8B0000; 
 }
 
 .header-container { 
@@ -47,32 +47,32 @@ header {
 .logo { 
     display: flex; 
     align-items: center; 
-    gap: 0.8rem; 
+    gap: 12.8px; 
 }
 
 .logo i { 
-    font-size: 2.2rem; 
-    color: var(--maroon); 
+    font-size: 35.2px; 
+    color: #8B0000; 
 }
 
 .logo h1 { 
-    font-size: 2rem; 
-    color: var(--maroon); 
+    font-size: 32px; 
+    color: #8B0000; 
     margin: 0; 
 }
 
 nav { 
     display: flex; 
-    gap: 2rem; 
+    gap: 32px; 
     align-items: center; 
 }
 
 nav a { 
-    color: var(--maroon); 
+    color: #8B0000; 
     text-decoration: none; 
     font-weight: 700; 
     transition: all 0.3s; 
-    padding: 0.5rem 1rem; 
+    padding: 8px 16px; 
     border-radius: 4px; 
 }
 
@@ -81,60 +81,60 @@ nav a:hover {
 }
 
 .page-hero { 
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 50%, var(--saffron) 100%); 
-    color: var(--white); 
-    padding: 80px 2rem; 
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 50%, #FF9933 100%); 
+    color: #ffffff;
+    padding: 80px 32px;
     text-align: center; 
 }
 
 .page-hero h1 { 
-    color: var(--white); 
-    font-size: 2.5rem; 
+    color: #ffffff; 
+    font-size: 40px; 
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
 }
 
 .page-hero p { 
-    color: var(--white); 
-    font-size: 1.2rem; 
+    color: #ffffff; 
+    font-size: 19.2px; 
 }
 
-footer { 
-    background: linear-gradient(135deg, var(--maroon) 0%, #5C0000 100%); 
-    color: var(--white); 
-    padding: 3rem 2rem 1rem; 
+footer {
+    background: linear-gradient(135deg, #8B0000 0%, #5C0000 100%);
+    color: #ffffff;
+    padding: 48px 32px 16px; 
 }
 
 .footer-content { 
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 2rem; 
+    gap: 32px; 
     max-width: 1200px; 
-    margin: 0 auto 2rem; 
+    margin: 0 auto 32px; 
 }
 
-.footer-section h3 { 
-    color: var(--gold); 
-    margin-bottom: 1rem; 
+.footer-section h3 {
+    color: #FFD700;
+    margin-bottom: 16px; 
 }
 
 .footer-section ul { 
     list-style: none; 
 }
 
-.footer-section a { 
-    color: var(--white); 
+.footer-section a {
+    color: #ffffff;
     text-decoration: none; 
     display: block; 
-    padding: 0.5rem 0; 
+    padding: 8px 0; 
 }
 
 .footer-section a:hover { 
-    color: var(--gold); 
+    color: #FFD700; 
 }
 
 .social-icons { 
     display: flex; 
-    gap: 1rem; 
+    gap: 16px; 
 }
 
 .social-icons a { 
@@ -143,14 +143,15 @@ footer {
     justify-content: center; 
     width: 40px; 
     height: 40px; 
-    background: var(--saffron); 
-    color: var(--white); 
-    border-radius: 50%; 
+    background: #FF9933; 
+    color: #ffffff;
+    border-radius: 50%;
 }
 
 .footer-bottom { 
-    border-top: 2px solid var(--saffron); 
-    padding-top: 2rem; 
+    border-top: 2px solid #FF9933; 
+    padding-top: 32px; 
     text-align: center; 
-    color: var(--cream); 
+    color: #FFF8E1; 
 }
+

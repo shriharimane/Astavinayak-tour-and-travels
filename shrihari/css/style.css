@@ -1,4 +1,4 @@
-
+﻿
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Rozha+One&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
@@ -23,26 +23,26 @@ html {
 
 body {
     font-family: 'Baloo 2', sans-serif;
-    background-color: var(--white);
-    color: var(--dark);
+    background-color: #ffffff;
+    color: #333;
     line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rozha One', serif;
-    color: var(--maroon);
+    color: #8B0000;
     font-weight: 700;
 }
 
 
 header {
-    background: linear-gradient(to right, var(--saffron), var(--gold), var(--saffron));
-    padding: 1rem 2rem;
+    background: linear-gradient(to right, #FF9933, #FFD700, #FF9933);
+    padding: 16px 32px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 4px solid var(--maroon);
+    border-bottom: 4px solid #8B0000;
 }
 
 .header-container {
@@ -56,46 +56,47 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: 0.8rem;
+    gap: 12.8px;
     text-decoration: none;
 }
 
 .logo i {
-    font-size: 2.2rem;
-    color: var(--maroon);
+    font-size: 35.2px;
+    color: #8B0000;
 }
 
 .logo h1 {
-    font-size: 2rem;
-    color: var(--maroon);
+    font-size: 32px;
+    color: #8B0000;
     margin: 0;
 }
 
 nav {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     align-items: center;
 }
 
 nav a {
-    color: var(--maroon);
+    color: #8B0000;
     text-decoration: none;
     font-weight: 700;
     transition: all 0.3s ease;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border-radius: 4px;
 }
 
 nav a:hover {
     background-color: rgba(139, 0, 0, 0.2);
-    color: var(--maroon);
+    color: #8B0000;
 }
 
 /* HERO SECTION */
 .hero {
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 50%, var(--saffron) 100%);
-    color: var(--white);
-    padding: 80px 2rem;
+    
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 50%, #FF9933 100%);
+    color: #ffffff;
+    padding: 80px 32px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -132,29 +133,29 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    color: var(--white);
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .hero p {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-    color: var(--white);
+    font-size: 20.8px;
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 .cta-button {
     display: inline-block;
     padding: 12px 40px;
-    background: linear-gradient(135deg, var(--gold) 0%, #FFC700 100%);
-    color: var(--maroon);
+    background: linear-gradient(135deg, #FFD700 0%, #FFC700 100%);
+    color: #8B0000;
     text-decoration: none;
     border-radius: 50px;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 16px;
     transition: all 0.3s ease;
-    border: 2px solid var(--gold);
+    border: 2px solid #FFD700;
     cursor: pointer;
 }
 
@@ -165,31 +166,31 @@ nav a:hover {
 
 /* HIGHLIGHTS */
 .highlights {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
-    padding: 60px 2rem;
+    background: linear-gradient(135deg, #FFF8E1 0%, #ffffff 100%);
+    padding: 60px 32px;
 }
 
 .highlights h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--maroon);
+    font-size: 40px;
+    margin-bottom: 48px;
+    color: #8B0000;
 }
 
 .highlights-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .highlight-card {
-    background: var(--white);
-    padding: 2rem;
+    background: #ffffff;
+    padding: 32px;
     border-radius: 10px;
     text-align: center;
-    border-top: 4px solid var(--saffron);
+    border-top: 4px solid #FF9933;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
 }
@@ -200,56 +201,56 @@ nav a:hover {
 }
 
 .highlight-card i {
-    font-size: 3rem;
-    color: var(--saffron);
-    margin-bottom: 1rem;
+    font-size: 48px;
+    color: #FF9933;
+    margin-bottom: 16px;
 }
 
 .highlight-card h3 {
-    margin-bottom: 0.5rem;
-    color: var(--maroon);
+    margin-bottom: 8px;
+    color: #8B0000;
 }
 
 .highlight-card p {
     color: #666;
-    font-size: 0.95rem;
+    font-size: 15.2px;
 }
 
 /* FEATURED DESTINATIONS */
 .featured-destinations {
-    padding: 60px 2rem;
-    background: var(--white);
+    padding: 60px 32px;
+    background: #ffffff;
 }
 
 .featured-destinations h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    color: var(--maroon);
+    font-size: 40px;
+    margin-bottom: 8px;
+    color: #8B0000;
 }
 
 .featured-destinations > p {
     text-align: center;
     color: #666;
-    margin-bottom: 3rem;
-    font-size: 1.1rem;
+    margin-bottom: 48px;
+    font-size: 17.6px;
 }
 
 .destination-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    gap: 32px;
     max-width: 1400px;
     margin: 0 auto;
 }
 
 .destination-card {
-    background: var(--white);
+    background: #ffffff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
-    border-top: 4px solid var(--saffron);
+    border-top: 4px solid #FF9933;
 }
 
 .destination-card:hover {
@@ -259,7 +260,7 @@ nav a:hover {
 
 .destination-image {
     height: 200px;
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%);
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 100%);
     position: relative;
     overflow: hidden;
 }
@@ -276,58 +277,58 @@ nav a:hover {
 }
 
 .destination-info {
-    padding: 1.5rem;
+    padding: 24px;
 }
 
 .destination-info h3 {
-    color: var(--maroon);
-    margin-bottom: 0.5rem;
-    font-size: 1.3rem;
+    color: #8B0000;
+    margin-bottom: 8px;
+    font-size: 20.8px;
 }
 
 .destination-info p {
     color: #666;
-    font-size: 0.9rem;
+    font-size: 14.4px;
 }
 
 .destination-price {
-    background-color: var(--gold);
-    color: var(--maroon);
-    padding: 0.5rem 1rem;
+    background-color: #FFD700;
+    color: #8B0000;
+    padding: 8px 16px;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 17.6px;
     display: inline-block;
-    margin-top: 0.5rem;
+    margin-top: 8px;
 }
 
 /* PACKAGES */
 .packages {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
-    padding: 60px 2rem;
+    background: linear-gradient(135deg, #FFF8E1 0%, #ffffff 100%);
+    padding: 60px 32px;
 }
 
 .packages h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--maroon);
+    font-size: 40px;
+    margin-bottom: 48px;
+    color: #8B0000;
 }
 
 .packages-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 32px;
     max-width: 1400px;
     margin: 0 auto;
 }
 
 .package-card {
-    background: var(--white);
+    background: #ffffff;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 32px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-top: 4px solid var(--saffron);
+    border-top: 4px solid #FF9933;
     transition: all 0.3s ease;
 }
 
@@ -338,57 +339,57 @@ nav a:hover {
 
 .package-badge {
     display: inline-block;
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%);
-    color: var(--white);
-    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 100%);
+    color: #ffffff;
+    padding: 8px 16px;
     border-radius: 20px;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .package-card h3 {
-    color: var(--maroon);
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    color: #8B0000;
+    margin-bottom: 8px;
+    font-size: 24px;
 }
 
 .package-price {
-    font-size: 2rem;
-    color: var(--saffron);
+    font-size: 32px;
+    color: #FF9933;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .package-duration {
     color: #999;
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
+    font-size: 14.4px;
+    margin-bottom: 24px;
 }
 
 .package-highlights {
     list-style: none;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .package-highlights li {
-    padding: 0.5rem 0;
+    padding: 8px 0;
     color: #666;
     border-bottom: 1px solid #f0f0f0;
 }
 
 .package-highlights li:before {
-    content: '✓ ';
-    color: var(--saffron);
+    content: 'âœ“ ';
+    color: #FF9933;
     font-weight: 700;
-    margin-right: 0.5rem;
+    margin-right: 8px;
 }
 
 .package-btn {
     width: 100%;
     padding: 10px;
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%);
-    color: var(--white);
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 100%);
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     font-weight: 700;
@@ -403,40 +404,40 @@ nav a:hover {
 
 /* SPECIAL OFFERS */
 .special-offers {
-    padding: 60px 2rem;
-    background: var(--white);
+    padding: 60px 32px;
+    background: #ffffff;
 }
 
 .special-offers h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--maroon);
+    font-size: 40px;
+    margin-bottom: 48px;
+    color: #8B0000;
 }
 
 .offers-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .offer-card {
-    padding: 2rem;
+    padding: 32px;
     border-radius: 10px;
-    color: var(--white);
+    color: #ffffff;
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .offer-1 {
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%);
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 100%);
 }
 
 .offer-2 {
-    background: linear-gradient(135deg, var(--maroon) 0%, #5C0000 100%);
+    background: linear-gradient(135deg, #8B0000 0%, #5C0000 100%);
 }
 
 .offer-card:hover {
@@ -445,42 +446,41 @@ nav a:hover {
 }
 
 .offer-card h3 {
-    color: var(--white);
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 28.8px;
+    margin-bottom: 16px;
 }
 
 .offer-card p {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.6;
 }
 
-/* TESTIMONIALS */
 .testimonials {
-    background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
-    padding: 60px 2rem;
+    background: linear-gradient(135deg, #FFF8E1 0%, #ffffff 100%);
+    padding: 60px 32px;
 }
 
 .testimonials h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--maroon);
+    font-size: 40px;
+    margin-bottom: 48px;
+    color: #8B0000;
 }
 
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    gap: 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .testimonial-card {
-    background: var(--white);
-    padding: 2rem;
+    background: #ffffff;
+    padding: 32px;
     border-radius: 10px;
-    border-left: 4px solid var(--saffron);
+    border-left: 4px solid #FF9933;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
 }
@@ -491,39 +491,38 @@ nav a:hover {
 }
 
 .stars {
-    color: var(--gold);
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
+    color: #FFD700;
+    margin-bottom: 16px;
+    font-size: 19.2px;
 }
 
 .testimonial-text {
     color: #666;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     font-style: italic;
 }
 
 .testimonial-author {
-    color: var(--maroon);
+    color: #8B0000;
     font-weight: 700;
 }
 
-/* GALLERY */
 .gallery {
-    padding: 60px 2rem;
-    background: var(--white);
+    padding: 60px 32px;
+    background: #ffffff;
 }
 
 .gallery h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--maroon);
+    font-size: 40px;
+    margin-bottom: 48px;
+    color: #8B0000;
 }
 
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+    gap: 24px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -546,26 +545,26 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* FOOTER */
+
 footer {
-    background: linear-gradient(135deg, var(--maroon) 0%, #5C0000 100%);
-    color: var(--white);
-    padding: 3rem 2rem 1rem;
+    background: linear-gradient(135deg, #8B0000 0%, #5C0000 100%);
+    color: #ffffff;
+    padding: 48px 32px 16px;
     margin-top: auto;
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 32px;
     max-width: 1200px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 32px;
 }
 
 .footer-section h3 {
-    color: var(--gold);
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
+    color: #FFD700;
+    margin-bottom: 16px;
+    font-size: 19.2px;
 }
 
 .footer-section ul {
@@ -573,20 +572,20 @@ footer {
 }
 
 .footer-section a {
-    color: var(--white);
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
     display: block;
-    padding: 0.5rem 0;
+    padding: 8px 0;
 }
 
 .footer-section a:hover {
-    color: var(--gold);
+    color: #FFD700;
 }
 
 .social-icons {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .social-icons a {
@@ -595,76 +594,76 @@ footer {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: var(--saffron);
-    color: var(--white);
+    background-color: #FF9933;
+    color: #ffffff;
     border-radius: 50%;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
-    background-color: var(--gold);
+    background-color: #FFD700;
     transform: translateY(-3px);
 }
 
 .footer-bottom {
-    border-top: 2px solid var(--saffron);
-    padding-top: 2rem;
+    border-top: 2px solid #FF9933;
+    padding-top: 32px;
     text-align: center;
-    color: var(--cream);
+    color: #FFF8E1;
 }
 
-/* LOGIN */
+
 .login-container {
     max-width: 400px;
     margin: 60px auto;
-    padding: 2rem;
-    background: var(--cream);
+    padding: 32px;
+    background: #FFF8E1;
     border-radius: 10px;
-    border-top: 4px solid var(--saffron);
+    border-top: 4px solid #FF9933;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .login-container h2 {
     text-align: center;
-    color: var(--maroon);
-    margin-bottom: 2rem;
+    color: #8B0000;
+    margin-bottom: 32px;
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 0.5rem;
-    color: var(--maroon);
+    margin-bottom: 8px;
+    color: #8B0000;
     font-weight: 600;
 }
 
 .form-group input {
     width: 100%;
     padding: 10px;
-    border: 2px solid var(--saffron);
+    border: 2px solid #FF9933;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 16px;
     transition: all 0.3s ease;
 }
 
 .form-group input:focus {
     outline: none;
-    border-color: var(--maroon);
+    border-color: #8B0000;
     box-shadow: 0 0 8px rgba(139,0,0,0.2);
 }
 
 .login-btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%);
-    color: var(--maroon);
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 100%);
+    color: #8B0000;
     border: none;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -674,53 +673,53 @@ footer {
     box-shadow: 0 4px 10px rgba(139,0,0,0.3);
 }
 
-/* ABOUT */
+
 .about-content {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 60px 2rem;
+    padding: 60px 32px;
 }
 
 .about-content h2 {
-    color: var(--maroon);
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
+    color: #8B0000;
+    margin-bottom: 24px;
+    font-size: 32px;
 }
 
 .about-content p {
     color: #666;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     line-height: 1.8;
-    font-size: 1.05rem;
+    font-size: 16.8px;
 }
 
-/* CONTACT */
+
 .contact-content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 60px 2rem;
+    padding: 60px 32px;
 }
 
 .contact-form {
-    background: var(--cream);
-    padding: 2rem;
+    background: #FFF8E1;
+    padding: 32px;
     border-radius: 10px;
-    border-top: 4px solid var(--saffron);
+    border-top: 4px solid #FF9933;
 }
 
 .contact-form h2 {
-    color: var(--maroon);
-    margin-bottom: 2rem;
+    color: #8B0000;
+    margin-bottom: 32px;
     text-align: center;
 }
 
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 2px solid var(--saffron);
+    border: 2px solid #FF9933;
     border-radius: 5px;
     font-family: 'Baloo 2', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     resize: vertical;
     min-height: 150px;
     transition: all 0.3s ease;
@@ -728,19 +727,19 @@ footer {
 
 .form-group textarea:focus {
     outline: none;
-    border-color: var(--maroon);
+    border-color: #8B0000;
     box-shadow: 0 0 8px rgba(139,0,0,0.2);
 }
 
 .submit-btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(135deg, var(--saffron) 0%, var(--gold) 100%);
-    color: var(--maroon);
+    background: linear-gradient(135deg, #FF9933 0%, #FFD700 100%);
+    color: #8B0000;
     border: none;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -750,27 +749,27 @@ footer {
     box-shadow: 0 4px 10px rgba(139,0,0,0.3);
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        gap: 1rem;
+        gap: 16px;
     }
 
     nav {
-        gap: 1rem;
+        gap: 16px;
     }
 
     .hero h1 {
-        font-size: 2.2rem;
+        font-size: 35.2px;
     }
 
     .hero p {
-        font-size: 1rem;
+        font-size: 16px;
     }
 
     h2 {
-        font-size: 2rem !important;
+        font-size: 32px !important;
     }
 
     .destination-grid,
@@ -788,23 +787,24 @@ footer {
 
 @media (max-width: 480px) {
     .logo h1 {
-        font-size: 1.3rem;
+        font-size: 20.8px;
     }
 
     nav {
-        gap: 0.5rem;
-        font-size: 0.8rem;
+        gap: 8px;
+        font-size: 12.8px;
     }
 
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 28.8px;
     }
 
     .hero p {
-        font-size: 0.9rem;
+        font-size: 14.4px;
     }
 
     h2 {
-        font-size: 1.5rem !important;
+        font-size: 24px !important;
     }
 }
+
