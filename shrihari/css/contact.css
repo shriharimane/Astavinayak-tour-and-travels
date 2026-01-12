@@ -78,26 +78,5 @@
     margin-top: 48px; 
 }
 
-.info-card { 
-    background: linear-gradient(135deg, #FFF8E1 0%, #ffffff 100%); 
-    padding: 32px; 
-    border-radius: 10px; 
-    border-left: 4px solid #FF9933; 
-    text-align: center; 
-}
 
-.info-card i { 
-    font-size: 32px; 
-    color: #FF9933; 
-    margin-bottom: 16px; 
-}
-
-.info-card h3 { 
-    color: #8B0000; 
-    margin-bottom: 8px; 
-}
-
-.info-card p { 
-    color: #666; 
-}
 
