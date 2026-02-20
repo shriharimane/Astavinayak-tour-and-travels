@@ -1,6 +1,6 @@
 # Astavinayak Tour & Travels 🌍
 
-A modern, responsive travel agency website built to showcase tour packages, destinations, and services with a clean UI and smooth navigation across all devices.
+A static travel agency website built with HTML and CSS, showcasing tour packages, destinations, and services across six dedicated pages with clean, page-wise styling.
 
 🔗 **Live Site:** [astavinayak-tour-and-travels.vercel.app](https://astavinayak-tour-and-travels.vercel.app/)
 
@@ -8,18 +8,20 @@ A modern, responsive travel agency website built to showcase tour packages, dest
 
 ## Overview
 
-Astavinayak Tour & Travels is a frontend project that mirrors a real-world travel agency website. It highlights destination packages and services in a visually appealing layout, with a fully responsive design that works seamlessly on mobile, tablet, and desktop. The project demonstrates component-based architecture, utility-first styling with Tailwind, and production deployment via Vercel.
+Astavinayak Tour & Travels is a multi-page static website that presents a travel agency's services in a structured and visually clean layout. Each page has its own dedicated CSS file, keeping styles modular and easy to maintain. The project demonstrates solid HTML fundamentals, organised folder structure, and static deployment — making it a strong base for expanding into a fully dynamic travel booking platform.
 
 ---
 
-## Features
+## Pages
 
-- Hero / landing section with strong visual impact
-- Tour package and service highlights
-- Destination and itinerary information sections
-- Contact section for customer inquiries
-- Fully responsive layout across all screen sizes
-- Clean, modern UI design
+| Page | File | Description |
+|---|---|---|
+| Home | `index.html` | Overview of travel services |
+| About | `about.html` | Agency background and information |
+| Packages | `packages.html` | Tour packages and offerings |
+| Gallery | `gallery.html` | Travel images and destinations |
+| Contact | `contact.html` | Contact details and inquiry section |
+| Login | `login.html` | Basic login UI (frontend only) |
 
 ---
 
@@ -27,10 +29,9 @@ Astavinayak Tour & Travels is a frontend project that mirrors a real-world trave
 
 | Layer | Technology |
 |---|---|
-| Framework | React.js / Next.js |
-| Styling | Tailwind CSS |
-| Markup | HTML5, CSS3 |
-| Language | JavaScript (ES6+) |
+| Markup | HTML5 |
+| Styling | CSS3 |
+| Scripting | Vanilla JavaScript (where applicable) |
 | Deployment | Vercel |
 
 ---
@@ -40,89 +41,83 @@ Astavinayak Tour & Travels is a frontend project that mirrors a real-world trave
 ```
 astavinayak-tour-and-travels/
 │
-├── components/
-│   ├── Navbar.jsx         # Site-wide navigation
-│   ├── HeroSection.jsx    # Landing / banner area
-│   ├── Services.jsx       # Tour & service highlights
-│   └── Footer.jsx         # Footer with links & contact info
+├── css/
+│   ├── style.css          # Global / base styles
+│   ├── pages.css          # Shared page-level styles
+│   ├── index.css          # Home page styles
+│   ├── about.css          # About page styles
+│   ├── packages.css       # Packages page styles
+│   ├── gallery.css        # Gallery page styles
+│   ├── contact.css        # Contact page styles
+│   └── login.css          # Login page styles
 │
-├── pages/
-│   └── index.js           # Main entry page
-│
-├── public/
-│   └── images/            # Static assets
-│
-├── styles/
-│   └── globals.css        # Global styles & Tailwind imports
+├── index.html             # Home page
+├── about.html             # About page
+├── packages.html          # Packages page
+├── gallery.html           # Gallery page
+├── contact.html           # Contact page
+├── login.html             # Login page
 │
 └── README.md
 ```
 
 ---
 
-## Getting Started
+## Running Locally
 
-**Prerequisites:** Node.js 16+ and npm
+No installation or build tools required.
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/astavinayak-tour-and-travels.git
-cd astavinayak-tour-and-travels
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm run dev
+**Option 1 — Open directly:**
+```
+Double-click index.html to open in your browser
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+**Option 2 — Live Server (recommended):**
+```
+Right-click index.html in VS Code → Open with Live Server
+```
+Live Server gives you instant hot-reload on every file save, making development much smoother.
 
 ---
 
 ## Deployment
 
-This project is deployed on **Vercel**. To deploy your own instance:
+Hosted on **Vercel** as a static site with zero configuration.
 
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-vercel
-```
-
-Alternatively, connect your GitHub repository directly to [vercel.com](https://vercel.com) for automatic deployments on every push.
+1. Push the project to a GitHub repository
+2. Go to [vercel.com](https://vercel.com) → **New Project** → import the repo
+3. No build settings needed — Vercel detects static HTML automatically
+4. Every push to `main` triggers an automatic redeployment
 
 ---
 
-## Key Concepts Demonstrated
+## Concepts Demonstrated
 
-- Responsive web design with Tailwind CSS utility classes
-- Component-based UI architecture in React / Next.js
-- Modern UI/UX principles for travel and hospitality websites
-- Static asset management and page routing in Next.js
-- Production deployment and hosting on Vercel
+- Multi-page static website architecture
+- Page-wise CSS organisation for clean separation of concerns
+- Semantic HTML5 structure
+- Responsive layout fundamentals
+- Modular folder organisation
+- Static site deployment on Vercel
 
 ---
 
 ## Roadmap
 
-- [ ] Online tour booking system
-- [ ] Dynamic packages powered by a backend API
-- [ ] Admin dashboard for managing tours and content
-- [ ] Contact form with email integration (e.g. EmailJS / Nodemailer)
-- [ ] SEO optimization (meta tags, Open Graph, sitemap)
-- [ ] Payment gateway integration
+- [ ] JavaScript form validation on contact and login pages
+- [ ] Fully responsive layout for all screen sizes
+- [ ] Backend integration for contact form and login (Node.js / Firebase)
+- [ ] Tour booking and availability functionality
+- [ ] UI enhancements with CSS animations and transitions
 
 ---
 
 ## Use Cases
 
-- Live website for a travel agency client
-- Frontend portfolio or UI/UX showcase project
-- College mini / major project submission
-- Component library reference for hospitality-style UIs
+- Live website for a travel agency
+- College mini project submission
+- HTML & CSS practice and portfolio project
+- Static website deployment demonstration
 
 ---
 
